@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bitter', serif;
+}
+.container_12{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1008px;
+}
+@media screen and (max-width: 1008px){
+    .container_12{
+        width: 100%;
+        padding: 0px 10px;
+    }
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* nav-section */
+
+.in-fs{
+    font-size: 14px;
+    color: #aaa;
+}
+.acc-list li a{
+    font-size: 14px;
+    color: #999;
+    transition: 0.5s;
+}
+.acc-list li a:hover{
+    color: #fff;
+    background-color: #59b7c2;
+    padding: 8px 10px;
+    border-radius: 2px;
+}
+.acc-list2{
+    background-color: #eee;
+    color: #000;
+    padding: 8px 10px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.sep{
+    color: #e0e0e0;
+}
+.nav-list li a{
+    color: #000;
+    font-weight: 400;
+}
+.nav-list li a:hover{
+    background-color: #d5e4f1;
+    border: none;
+}
+@media screen and (max-width: 1008px){
+    .justify{
+        justify-content: center;
+        display: grid;
+    }
+}
+.direction i{
+    background-color: #eee;
+}
+
+/* contact-us */
+
+.contact h5{
+    font-size: 18px;
+    color: #444;
+}
+.contact p{
+    font-size: 12px;
+    color: #444;
+}
+.contact-box{
+    border: 1px solid #ccc;
+    padding: 20px 20px;
+}
+.login{
+    background-color: #59b7c2;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 30px;
+}
+.login:hover{
+    background-color: #2ab4c4;
+    box-shadow: 0px 0px 10px #2ab4c4;
+    color: #fff;
+}
+.req{
+    font-size: 11px;
+    color: #ff0000;
+}
+.form label{
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+/* footer-section */
+
+.footer{
+    padding: 50px 0px 50px 0px;
+}
+.footer-text{
+    font-size: 12px;
+}
+.footer-head{
+    font-size: 18px;
+}
+.footer-text p a{
+    text-decoration: none;
+    color: #777;
+}
+.footer-text p a:hover{
+    text-decoration: underline;
+}
+
+/* footer-info-section */
+
+.footer-social a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    margin: 0px 5px;
+    border-radius: 50%;
+    padding: 2px 4px;
+}
+.facebook:hover{
+    background-color: #0000ff;
+}
+.twitter:hover{
+    background-color: #2e8f9a;
+}
+.google:hover{
+    background-color: #ff0000;
+}
